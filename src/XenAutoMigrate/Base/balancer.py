@@ -6,6 +6,7 @@ from datetime import datetime
 from datetime import timedelta
 from django.db.models import Avg
 from XenAutoMigrate.settings import BALANCER_FREQUENCIA
+from XenAutoMigrate.Base.xenapi import XenInterface
 
 class RealMachine():
     def __init__(self, xenHost):
@@ -54,6 +55,10 @@ class ThreadAutoBalancer(Thread):
 
             allXenHosts = XenHost.objects.all()
 
+            if len(allXenHosts) <= 1:
+                print "Somente um servidor real... nada para fazer"
+                continue
+
             horaAtual = datetime.now()
             horaLimite = horaAtual - timedelta(seconds=BALANCER_FREQUENCIA)
             print "Obtendo estatisticas entre ", horaLimite, " e ", horaAtual
@@ -95,7 +100,12 @@ class ThreadAutoBalancer(Thread):
                 vm_host_maior_peso.guests.sort(cmp=comp_by_order, reverse=True)
                 for vm in vm_host_maior_peso.guests:
                     if vm_host_menor_peso.weight() + vm.weight <= medium_weight:
-                        print "Migrate vm ", str(vm), " to ", str(vm_host_menor_peso)
+
+                        print "\n\n\n************\nMigrate vm ", str(vm), " to ", str(vm_host_menor_peso), "\n\n\n\n"
+
+                        xen = XenInterface(host=vm.realMachine.xenHost.host, port=vm.realMachine.xenHost.port)
+                        xen.migrate_vm_fvm(vm.vm_id, vm_host_menor_peso.xenHost.host)
+
                         vm_host_menor_peso.guests.append(vm)
                         vm.realMachine.guests.remove(vm)
                         vm.realMachine = vm_host_menor_peso

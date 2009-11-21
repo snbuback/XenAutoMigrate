@@ -15,8 +15,8 @@ def inicia_coletor():
     from XenAutoMigrate.Base.coletor import ThreadAutoColetor
     from XenAutoMigrate.Base.balancer import ThreadAutoBalancer
 
-    #t_coletor = ThreadAutoColetor()
-    #t_coletor.start()
+    t_coletor = ThreadAutoColetor()
+    t_coletor.start()
 
     t_balancer = ThreadAutoBalancer()
     t_balancer.start()
