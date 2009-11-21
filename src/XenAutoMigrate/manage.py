@@ -15,11 +15,11 @@ def inicia_coletor():
     from XenAutoMigrate.Base.coletor import ThreadAutoColetor
     from XenAutoMigrate.Base.balancer import ThreadAutoBalancer
 
-    t_coletor = ThreadAutoColetor()
-    t_coletor.start()
+    #t_coletor = ThreadAutoColetor()
+    #t_coletor.start()
 
-    #t_balancer = ThreadAutoBalancer()
-    #t_balancer.start()
+    t_balancer = ThreadAutoBalancer()
+    t_balancer.start()
 
 if __name__ == "__main__":
     # Inicia as threads de colecao e analise do sistema somente se estiver no modo server.
@@ -28,7 +28,8 @@ if __name__ == "__main__":
         t = Timer(5, inicia_coletor)
         t.start() # aguarda 5 segundos para iniciar a thread coletor para que o django tenha iniciado
 
+    print "Iniciando DJANGO"
     execute_manager(settings)
-
+    print "Terminando DJANGO"
 
 

@@ -3,6 +3,9 @@
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+# Tempo em que o balancer vai ficar sendo executado (em segundos)
+BALANCER_FREQUENCIA=10
+
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
 )

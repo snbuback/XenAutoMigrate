@@ -16,9 +16,10 @@ class XenHostStatistic(models.Model):
     cpu = models.IntegerField()
     net = models.IntegerField()
     disk = models.IntegerField()
+    vm_id = models.CharField(max_length=200)
     date = models.DateTimeField(auto_now=True, editable=False)
 
     def __unicode__(self):
-        return "XenHostStatistic(host=" + str(self.xenHost) +", cpu=" + str(self.cpu) + ", net=" + str(self.net) + ", disk=" + str(self.disk) + ", date=" + str(self.date) + ")"
+        return "XenHostStatistic(host=" + str(self.xenHost) +", cpu=" + str(self.cpu) + ", net=" + str(self.net) + ", disk=" + str(self.disk) + ", date=" + str(self.date) + ", vm_id=" + str(self.vm_id) + ")"
 
 
