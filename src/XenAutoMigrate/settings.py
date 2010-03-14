@@ -4,7 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 # Tempo em que o balancer vai ficar sendo executado (em segundos)
-BALANCER_FREQUENCIA=30
+BALANCER_FREQUENCIA=60
 
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
@@ -38,12 +38,12 @@ USE_I18N = True
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = '/virtualpc/XenAutoMigrate/src/XenAutoMigrate/resources/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
-MEDIA_URL = ''
+MEDIA_URL = '/resources/'
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
@@ -69,6 +69,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'XenAutoMigrate.urls'
 
 TEMPLATE_DIRS = (
+    "/virtualpc/XenAutoMigrate/src/XenAutoMigrate"
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.

@@ -14,4 +14,6 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     (r'^admin/', include(admin.site.urls)),
+    (r'^monitor/$', 'XenAutoMigrate.Base.views.index'),
+    (r'^monitor/data/(?P<xen_id>\d+)/$', 'XenAutoMigrate.Base.views.data'),
 )

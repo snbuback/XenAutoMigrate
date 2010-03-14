@@ -99,7 +99,7 @@ class ThreadAutoBalancer(Thread):
 
                 vm_host_maior_peso.guests.sort(cmp=comp_by_order, reverse=True)
                 for vm in vm_host_maior_peso.guests:
-                    if vm_host_menor_peso.weight() + vm.weight <= medium_weight:
+                    if vm_host_menor_peso.weight() + vm.weight <= medium_weight and vm.weight > 10:
 
                         print "\n\n\n************\nMigrate vm ", str(vm), " to ", str(vm_host_menor_peso), "\n\n\n\n"
 

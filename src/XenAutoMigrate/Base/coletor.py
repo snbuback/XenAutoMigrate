@@ -17,8 +17,10 @@ class ThreadAutoColetor(Thread):
                 print "Pesquisando no host ", xenHost.host
                 xenInterface = XenInterface(xenHost.host, xenHost.port)
                 vm_data = xenInterface.get_data_vms()
+		print "***********", vm_data
 
                 for vm in vm_data:
+                    print "###############", vm
                     # faz chamada na xen api
                     cpu = vm.cpu
                     uuid = vm.uuid

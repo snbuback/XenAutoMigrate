@@ -1,0 +1,585 @@
+Iniciando DJANGO
+Validating models...
+0 errors found
+
+Django version 1.1.1, using settings 'XenAutoMigrate.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Iniciando threads
+Iniciando coletor
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Iniciando balancer
+Dormindo por 60 s
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6466c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6406c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68e8c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6466c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6406c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68e8c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6462c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f689ac>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6462c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f689ac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68b8c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68c6c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68b8c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68c6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6452c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f645ec>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6452c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f645ec>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6454c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68b2c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68cac>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6454c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68b2c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68cac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6406c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6462c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6406c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6462c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d2c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f688ec>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d2c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f688ec>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6452c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d4c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6452c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d4c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 51.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 49.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 96.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f645ec>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68c2c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d2c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f645ec>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68c2c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d2c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=96.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f645ac>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f645ac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f5ff6c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68cac>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e1cc>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f5ff6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68cac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e1cc>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6406c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6406c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+Obtendo estatisticas entre  2010-03-14 16:07:39.794424  e  2010-03-14 16:08:39.794424
+Olha o que foi calculado:  ['RealMachine( name=globo01, weight=199, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6ebcc>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e6ac>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e9ec>] )', 'RealMachine( name=globo03, weight=100, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6eeec>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6eccc>] )']
+peso total = 299, peso medio = 149
+Host de maior peso =  RealMachine( name=globo01, weight=199, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6ebcc>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e6ac>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e9ec>] )
+Host de menor peso =  RealMachine( name=globo03, weight=100, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6eeec>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6eccc>] )
+Olha como ficou:  ['RealMachine( name=globo01, weight=199, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e9ec>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6ebcc>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e6ac>] )', 'RealMachine( name=globo03, weight=100, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6eeec>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6eccc>] )']
+Dormindo por 60 s
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f645ac>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6454c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e8ec>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f645ac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6454c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e8ec>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f688ec>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68aac>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f688ec>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68aac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 51.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 49.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 96.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68dec>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6edac>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75a6c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68dec>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6edac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75a6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=96.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6ef2c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e02c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6ef2c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e02c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 49.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 51.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 96.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e5cc>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7578c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=96.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e5cc>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7578c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68e8c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68e8c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f688ec>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7564c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75f4c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f688ec>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7564c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75f4c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6edac>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e02c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6edac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e02c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6ef2c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75d6c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7588c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6ef2c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75d6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7588c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68aac>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68aac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68e8c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75b2c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7574c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68e8c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75b2c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7574c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e5ac>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e02c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e5ac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e02c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+Obtendo estatisticas entre  2010-03-14 16:08:39.872424  e  2010-03-14 16:09:39.872424
+Olha o que foi calculado:  ['RealMachine( name=globo01, weight=198, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e2ac>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6efec>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6ed2c>] )', 'RealMachine( name=globo03, weight=100, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e08c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e98c>] )']
+peso total = 298, peso medio = 149
+Host de maior peso =  RealMachine( name=globo01, weight=198, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e2ac>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6efec>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6ed2c>] )
+Host de menor peso =  RealMachine( name=globo03, weight=100, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e08c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e98c>] )
+Olha como ficou:  ['RealMachine( name=globo01, weight=198, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e2ac>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6ed2c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6efec>] )', 'RealMachine( name=globo03, weight=100, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e08c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e98c>] )']
+Dormindo por 60 s
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6edac>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7524c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7556c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6edac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7524c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7556c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6ef2c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6ef2c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 49.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 97.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 99.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68aac>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7550c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7524c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68aac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=97.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7550c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7524c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=99.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75ecc>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f751ec>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75ecc>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f751ec>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 49.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 97.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 99.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75b0c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75e0c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x901414c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75b0c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=97.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75e0c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x901414c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=99.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e5cc>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75f6c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e5cc>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75f6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 51.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 49.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 96.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75ecc>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7556c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x90142ec>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75ecc>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7556c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x90142ec>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=96.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 100.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e48c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e48c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=100.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6464c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', 'a838efb2-947a-0423-cf95-22f3a26cb663', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 51.0 0
+Antes normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 49.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao a838efb2-947a-0423-cf95-22f3a26cb663 0.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 96.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x901488c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x90147cc>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x901488c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=0.0, net=0, disk=0, date=None, vm_id=a838efb2-947a-0423-cf95-22f3a26cb663)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x90147cc>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=96.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 0.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 0.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6edac>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e02c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6edac>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e02c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498', '645c4479-2b76-f6ac-bd35-8b095f5af19a']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 50.0 0
+Antes normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 50.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao 645c4479-2b76-f6ac-bd35-8b095f5af19a 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e5cc>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x901424c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f6e5cc>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x901424c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=645c4479-2b76-f6ac-bd35-8b095f5af19a)
+Obtendo estatisticas entre  2010-03-14 16:09:39.952157  e  2010-03-14 16:10:39.952157
+Olha o que foi calculado:  ['RealMachine( name=globo01, weight=197, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6ea2c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e7ac>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f75d4c>] )', 'RealMachine( name=globo03, weight=80, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f7568c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f75f2c>] )']
+peso total = 277, peso medio = 138
+Host de maior peso =  RealMachine( name=globo01, weight=197, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6ea2c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e7ac>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f75d4c>] )
+Host de menor peso =  RealMachine( name=globo03, weight=80, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f7568c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f75f2c>] )
+Olha como ficou:  ['RealMachine( name=globo01, weight=197, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f75d4c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6ea2c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f6e7ac>] )', 'RealMachine( name=globo03, weight=80, guests=[<XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f7568c>, <XenAutoMigrate.Base.balancer.VirtualMachine instance at 0x8f75f2c>] )']
+Dormindo por 60 s
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '0f295e3d-8fe0-05d3-b30b-24b8efb197ff', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 0.0 0
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+Apos normalizacao 0f295e3d-8fe0-05d3-b30b-24b8efb197ff 0.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 0.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7556c>, <XenAutoMigrate.Base.xenapi.XenData instance at 0x9014e4c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f7556c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=0f295e3d-8fe0-05d3-b30b-24b8efb197ff)
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x9014e4c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=0.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', 'fa1e392c-d7df-342e-5978-dec5bc386498']
+Antes normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+Apos normalizacao fa1e392c-d7df-342e-5978-dec5bc386498 100.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75c4c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f75c4c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo01, host=192.168.1.109), cpu=100.0, net=0, disk=0, date=None, vm_id=fa1e392c-d7df-342e-5978-dec5bc386498)
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000', '3c624c49-8659-73c5-157f-835effc2313f']
+Antes normalizacao 3c624c49-8659-73c5-157f-835effc2313f 11.0 0
+Apos normalizacao 3c624c49-8659-73c5-157f-835effc2313f 11.0 0
+*********** [<XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>]
+############### <XenAutoMigrate.Base.xenapi.XenData instance at 0x8f68d6c>
+Armazenando estatistica:  XenHostStatistic(host=XenHost(globo03, host=192.168.1.104), cpu=11.0, net=0, disk=0, date=None, vm_id=3c624c49-8659-73c5-157f-835effc2313f)
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000']
+*********** []
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000']
+*********** []
+2 hosts para buscar informacoes
+Pesquisando no host  192.168.1.109
+Session: <ServerProxy for 192.168.1.109:9363/RPC2>
+['00000000-0000-0000-0000-000000000000']
+*********** []
+Pesquisando no host  192.168.1.104
+Session: <ServerProxy for 192.168.1.104:9363/RPC2>
+['00000000-0000-0000-0000-000000000000']
+*********** []

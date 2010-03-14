@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us" >
+<head>
+<title>Monitor</title>
+<link rel="stylesheet" type="text/css" href="/media/css/base.css" />
+
+
+  <link rel="stylesheet" type="text/css" href="/media/css/changelists.css" />
+
+  <script type="text/javascript" src="/media/js/core.js"></script>
+<script type="text/javascript" src="/media/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/media/js/getElementsBySelector.js"></script>
+<script type="text/javascript" src="/media/js/actions.js"></script>
+
+
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/media/css/ie.css" /><![endif]-->
+
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class="change-list">
+
+<!-- Container -->
+<div id="container">
+
+
+    <!-- Header -->
+    <div id="header">
+
+        <div id="branding">
+
+<h1 id="site-name">Django administration</h1>
+
+        </div>
+
+        <div id="user-tools">
+            Welcome,
+            <strong>admin</strong>.
+
+
+
+
+
+                    <a href="/admin/password_change/">
+
+                Change password</a> /
+
+
+                    <a href="/admin/logout/">
+
+
+                Log out</a>
+
+        </div>
+
+
+    </div>
+    <!-- END Header -->
+
+    <div class="breadcrumbs">
+      Monitor
+    </div>
+
+
+
+
+
+    <!-- Content -->
+    <div id="content" class="flex">
+
+        <h1>Monitoring</h1>
+
+  <div id="content-main">
+
+
+        <ul class="object-tools">
+
+          <li>
+            <a href="">
+              refresh
+            </a>
+          </li>
+        </ul>
+
+
+
+    <div id="changelist">
+    {% for xenHost in chartList %}
+           <h2>{{xenHost.name}} / ({{xenHost.host}}:{{xenHost.port}})</h2>
+           {% autoescape off %}{{ xenHost.chart }}{% endautoescape %}
+
+    {% endfor %}
+
+    </div>
+  </div>
+
+
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
